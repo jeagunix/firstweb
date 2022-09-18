@@ -33,6 +33,7 @@ public class HelloServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		out.println("<h1>Hello World</h1>");
+		out.println("<h1>Hello World</h1>");
 		
 	}
 
